@@ -1,0 +1,37 @@
+name: Filtrar feeds
+
+on:
+  schedule:
+    - cron: "17 * * * *"   # de hora em hora, no minuto 17
+  workflow_dispatch:         # botão "Run workflow" na aba Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: filtro
+  cancel-in-progress: false
+
+jobs:
+  filtrar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - run: python filtro.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+      - name: Publicar
+        run: |
+          git config user.name "news_feed bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add estado.json docs
+          git diff --cached --quiet || git commit -m "Atualiza feed filtrado"
+          git push

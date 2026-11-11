@@ -1,0 +1,2 @@
+# Um feed RSS por linha. Linhas com # são ignoradas.
+https://www.engadget.com/rss.xml
