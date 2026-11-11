@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Engadget filtrado: barrados</title>
+    <link>https://github.com/marcelocompucorp/news_feed</link>
+    <description>Matérias descartadas pelo filtro, com o motivo</description>
+    <lastBuildDate>Wed, 11 Nov 2026 21:17:46 +0000</lastBuildDate>
+    <item>
+      <title>How many SpaceX Starship rocket tests have failed?</title>
+      <link>https://www.engadget.com/2314045/how-many-spacex-starship-rocket-tests-failed/</link>
+      <guid isPermaLink="false">https://www.engadget.com/2314045/how-many-spacex-starship-rocket-tests-failed/</guid>
+      <pubDate>Wed, 11 Nov 2026 19:27:00 +0000</pubDate>
+      <description>Thanks to SpaceX&amp;#39;s unique approach to testing, the answer isn&amp;#39;t so clear-cut.
+
+[Filtro: Pergunta genérica estilo FAQ sobre foguetes.]</description>
+      <category>Space</category>
+    </item>
+    <item>
+      <title>Cash App founder's killer gets 16 years to life in prison</title>
+      <link>https://www.engadget.com/2313991/cash-app-founders-killer-gets-16-years-to-life-in-prison/</link>
+      <guid isPermaLink="false">https://www.engadget.com/2313991/cash-app-founders-killer-gets-16-years-to-life-in-prison/</guid>
+      <pubDate>Wed, 11 Nov 2026 18:57:37 +0000</pubDate>
+      <description>Bob Lee died from multiple stab wounds in 2023.
+
+[Filtro: Crime sem relação direta com tecnologia.]</description>
+      <category>News</category>
+    </item>
+    <item>
+      <title>Peacock is redesigning its mobile app to focus more on vertical videos</title>
+      <link>https://www.engadget.com/2313912/peacock-is-redesigning-its-mobile-app-to-focus-more-on-vertical-videos/</link>
+      <guid isPermaLink="false">https://www.engadget.com/2313912/peacock-is-redesigning-its-mobile-app-to-focus-more-on-vertical-videos/</guid>
+      <pubDate>Wed, 11 Nov 2026 18:24:40 +0000</pubDate>
+      <description>This is an attempt to "win another hour per user, per month."
+
+[Filtro: Foco em entretenimento e streaming de conteúdo.]</description>
+      <category>Streaming</category>
+    </item>
+    <item>
+      <title>What is the average lifespan of recordable Blu-ray discs?</title>
+      <link>https://www.engadget.com/2307784/average-lifespan-recordable-blu-ray-discs/</link>
+      <guid isPermaLink="false">https://www.engadget.com/2307784/average-lifespan-recordable-blu-ray-discs/</guid>
+      <pubDate>Wed, 11 Nov 2026 01:00:00 +0000</pubDate>
+      <description>How long they will last depends on a few factors.
+
+[Filtro: Pergunta genérica FAQ sobre durabilidade de mídia.]</description>
+      <category>Accessories</category>
+    </item>
+    <item>
+      <title>Why your Roku might be plugged into the wrong HDMI port</title>
+      <link>https://www.engadget.com/2307791/why-roku-plugged-into-wrong-hdmi-port/</link>
+      <guid isPermaLink="false">https://www.engadget.com/2307791/why-roku-plugged-into-wrong-hdmi-port/</guid>
+      <pubDate>Wed, 11 Nov 2026 00:30:00 +0000</pubDate>
+      <description>A Roku isn&amp;#39;t as sensitive to the chosen HDMI port as a game console or sound bar, but you should still choose the right one for the job.
+
+[Filtro: Tutorial e dica de serviço (how-to).]</description>
+      <category>Entertainment</category>
+    </item>
+    <item>
+      <title>How to get this Siri camera upgrade for your iPad before its public release</title>
+      <link>https://www.engadget.com/2312808/how-to-get-ipad-siri-camera-upgrade-early/</link>
+      <guid isPermaLink="false">https://www.engadget.com/2312808/how-to-get-ipad-siri-camera-upgrade-early/</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <description>You'll be able to access Visual Intelligence from a new tab in the tablet&amp;#39;s Camera app.
+
+[Filtro: Tutorial do tipo how-to.]</description>
+      <category>AI</category>
+      <category>Tablets</category>
+    </item>
+    <item>
+      <title>How SCSKiller is trying to fix shader stuttering in PC games</title>
+      <link>https://www.engadget.com/2307815/scskiller-fix-shader-stuttering-pc-games/</link>
+      <guid isPermaLink="false">https://www.engadget.com/2307815/scskiller-fix-shader-stuttering-pc-games/</guid>
+      <pubDate>Tue, 10 Nov 2026 23:30:00 +0000</pubDate>
+      <description>This free app claims to defeat shader compilation in modern PC titles, but does it deliver? We tested it on games that are notorious for stuttering,
+
+[Filtro: Conteúdo focado em jogos e otimização de games.]</description>
+      <category>PC Gaming</category>
+    </item>
+  </channel>
+</rss>
