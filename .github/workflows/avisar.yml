@@ -13,6 +13,6 @@ jobs:
           for feed in feed.xml "feed.xml?v=2" barrados.xml; do
             curl -sS -o /dev/null -w "$feed: HTTP %{http_code}\n" \
               -d hub.mode=publish \
-              -d hub.url=https://marcelocompucorp.github.io/news_feed/$feed \
+              --data-urlencode hub.url=https://marcelocompucorp.github.io/news_feed/$feed \
               https://pubsubhubbub.appspot.com/
           done
