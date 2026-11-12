@@ -22,7 +22,9 @@ RAIZ = Path(__file__).parent
 ESTADO = RAIZ / "estado.json"
 SAIDA = RAIZ / "docs"
 
-MODELO = os.environ.get("GEMINI_MODEL", "gemini-flash-lite-latest")
+# Tenta na ordem; se o Google estiver sobrecarregado num modelo, passa ao seguinte.
+MODELOS = os.environ.get("GEMINI_MODEL", "gemini-flash-lite-latest,gemini-flash-latest").split(",")
+ERROS_PASSAGEIROS = (429, 500, 502, 503, 504)
 URL_GEMINI = "https://generativelanguage.googleapis.com/v1beta/models/{}:generateContent"
 
 DIAS_NO_ESTADO = 30   # depois disso a matéria sai do estado.json
@@ -92,13 +94,27 @@ def classificar(itens, perfil):
             },
         },
     }
-    for tentativa in range(3):
-        resposta = requests.post(URL_GEMINI.format(MODELO), json=corpo, timeout=120,
-                                 headers={"x-goog-api-key": chave})
-        if resposta.status_code not in (429, 500, 503):
+    resposta = None
+    for modelo in MODELOS:
+        for tentativa in range(2):
+            try:
+                resposta = requests.post(URL_GEMINI.format(modelo.strip()), json=corpo, timeout=120,
+                                         headers={"x-goog-api-key": chave})
+            except requests.RequestException as erro:
+                print(f"{modelo}: falha de rede ({erro})")
+                resposta = None
+            if resposta is not None and resposta.status_code not in ERROS_PASSAGEIROS:
+                break
+            time.sleep(15)
+        if resposta is not None and resposta.status_code not in ERROS_PASSAGEIROS:
             break
-        time.sleep(20 * (tentativa + 1))
-    resposta.raise_for_status()
+        print(f"{modelo}: indisponível ({resposta.status_code if resposta is not None else 'rede'})")
+    else:
+        # Problema passageiro do lado do Google: as matérias não entram no
+        # estado e são avaliadas de novo na próxima execução, sem falhar o job.
+        print("::warning::Gemini indisponível; as matérias ficam para a próxima execução")
+        return {}
+    resposta.raise_for_status()  # erro de verdade (chave inválida, modelo extinto): falha o job
 
     partes = resposta.json()["candidates"][0]["content"]["parts"]
     texto = "".join(p.get("text", "") for p in partes if not p.get("thought"))
