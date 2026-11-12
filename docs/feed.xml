@@ -1,10 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Engadget filtrado</title>
     <link>https://github.com/marcelocompucorp/news_feed</link>
     <description>Matérias que passaram no filtro de perfil.md</description>
-    <lastBuildDate>Thu, 12 Nov 2026 20:21:16 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 20:25:41 +0000</lastBuildDate>
+    <atom:link rel="self" href="https://marcelocompucorp.github.io/news_feed/feed.xml" type="application/rss+xml" />
+    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
     <item>
       <title>Who is Collette Kress, NVIDIA's interim CEO?</title>
       <link>https://www.engadget.com/2315274/who-is-collette-kress-nvidia-ceo/</link>
