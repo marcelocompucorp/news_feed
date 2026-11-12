@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          for feed in feed.xml barrados.xml; do
+          for feed in feed.xml "feed.xml?v=2" barrados.xml; do
             curl -sS -o /dev/null -w "$feed: HTTP %{http_code}\n" \
               -d hub.mode=publish \
               -d hub.url=https://marcelocompucorp.github.io/news_feed/$feed \
