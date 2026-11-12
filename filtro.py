@@ -21,6 +21,14 @@ import requests
 RAIZ = Path(__file__).parent
 ESTADO = RAIZ / "estado.json"
 SAIDA = RAIZ / "docs"
+URL_PUBLICA = "https://marcelocompucorp.github.io/news_feed/"
+
+# WebSub: o feed anuncia este hub, e o workflow avisar.yml o notifica a cada
+# publicação. Assim o Feedly recebe as matérias na hora em vez de esperar a
+# próxima visita dele, que num feed com um assinante pode levar muitas horas.
+HUB = "https://pubsubhubbub.appspot.com/"
+ATOM = "http://www.w3.org/2005/Atom"
+ET.register_namespace("atom", ATOM)
 
 # Tenta na ordem; se o Google estiver sobrecarregado num modelo, passa ao seguinte.
 MODELOS = os.environ.get("GEMINI_MODEL", "gemini-flash-lite-latest,gemini-flash-latest").split(",")
@@ -129,6 +137,9 @@ def gravar_feed(arquivo, titulo, descricao, itens):
     ET.SubElement(canal, "link").text = "https://github.com/marcelocompucorp/news_feed"
     ET.SubElement(canal, "description").text = descricao
     ET.SubElement(canal, "lastBuildDate").text = format_datetime(datetime.now(timezone.utc))
+    ET.SubElement(canal, f"{{{ATOM}}}link", rel="self", href=URL_PUBLICA + arquivo.name,
+                  type="application/rss+xml")
+    ET.SubElement(canal, f"{{{ATOM}}}link", rel="hub", href=HUB)
     for it in itens:
         item = ET.SubElement(canal, "item")
         ET.SubElement(item, "title").text = it["titulo"]

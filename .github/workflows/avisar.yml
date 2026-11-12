@@ -1,0 +1,19 @@
+name: Avisar o hub WebSub
+
+# Roda depois de cada publicação do GitHub Pages e avisa o hub de que os
+# feeds mudaram; o hub repassa o aviso ao Feedly.
+on:
+  page_build:
+
+jobs:
+  avisar:
+    if: github.event.build.status == 'built'
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          for feed in feed.xml barrados.xml; do
+            curl -sS -o /dev/null -w "$feed: HTTP %{http_code}\n" \
+              -d hub.mode=publish \
+              -d hub.url=https://marcelocompucorp.github.io/news_feed/$feed \
+              https://pubsubhubbub.appspot.com/
+          done
