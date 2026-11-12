@@ -281,5 +281,19 @@
   "manter": false,
   "motivo": "Conteúdo focado em jogos e otimização de games.",
   "avaliado_em": "2026-11-11T21:17:23.187329+00:00"
+ },
+ "https://www.engadget.com/2314341/new-york-is-forcing-t-mobile-to-stop-putting-data-caps-on-low-income-home-internet-plans/": {
+  "guid": "https://www.engadget.com/2314341/new-york-is-forcing-t-mobile-to-stop-putting-data-caps-on-low-income-home-internet-plans/",
+  "titulo": "New York is forcing T-Mobile to stop putting data caps on low-income home internet plans",
+  "link": "https://www.engadget.com/2314341/new-york-is-forcing-t-mobile-to-stop-putting-data-caps-on-low-income-home-internet-plans/",
+  "resumo": "The company was throttling speeds for plans offered under the Affordable Broadband Act.",
+  "categorias": [
+   "Big Tech"
+  ],
+  "data": "Wed, 11 Nov 2026 22:46:07 +0000",
+  "fonte": "Engadget - Technology News & Expert Reviews",
+  "manter": true,
+  "motivo": "Notícia sobre regulação de telecomunicações e empresa de tecnologia.",
+  "avaliado_em": "2026-11-12T02:18:45.457863+00:00"
  }
 }
