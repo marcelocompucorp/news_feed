@@ -7,7 +7,6 @@ on:
 
 jobs:
   avisar:
-    if: github.event.build.status == 'built'
     runs-on: ubuntu-latest
     steps:
       - run: |
