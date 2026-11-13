@@ -483,5 +483,91 @@
   "manter": true,
   "motivo": "Nova funcionalidade de inteligência artificial da Meta.",
   "avaliado_em": "2026-11-13T00:25:59.628400+00:00"
+ },
+ "https://www.engadget.com/2315452/motorola-signature-27-hands-on/": {
+  "guid": "https://www.engadget.com/2315452/motorola-signature-27-hands-on/",
+  "titulo": "The Motorola Signature 27 is a beast",
+  "link": "https://www.engadget.com/2315452/motorola-signature-27-hands-on/",
+  "resumo": "Motorola&#39;s latest phone has a monstrous tandem OLED display, a huge 7,000mah battery, fancy cameras and a massive $1,600 price tag.",
+  "categorias": [
+   "Smartphones"
+  ],
+  "data": "Fri, 13 Nov 2026 14:00:00 +0000",
+  "fonte": "Engadget - Technology News & Expert Reviews",
+  "manter": true,
+  "motivo": "Review de celular topo de linha relevante.",
+  "avaliado_em": "2026-11-13T15:32:31.423519+00:00"
+ },
+ "https://www.engadget.com/2315338/why-apples-homeview-relies-so-heavily-on-your-iphone/": {
+  "guid": "https://www.engadget.com/2315338/why-apples-homeview-relies-so-heavily-on-your-iphone/",
+  "titulo": "Why Apple's HomeView relies so heavily on your iPhone",
+  "link": "https://www.engadget.com/2315338/why-apples-homeview-relies-so-heavily-on-your-iphone/",
+  "resumo": "To make the HomeView both personal and communal, there was only one place to go.",
+  "categorias": [
+   "AI",
+   "Apple"
+  ],
+  "data": "Fri, 13 Nov 2026 14:00:00 +0000",
+  "fonte": "Engadget - Technology News & Expert Reviews",
+  "manter": true,
+  "motivo": "Notícia sobre estratégia e ecossistema da Apple.",
+  "avaliado_em": "2026-11-13T15:32:31.423519+00:00"
+ },
+ "https://www.engadget.com/2314873/surface-laptop-ultra-review/": {
+  "guid": "https://www.engadget.com/2314873/surface-laptop-ultra-review/",
+  "titulo": "Surface Laptop Ultra review: The most powerful Surface yet, but it still lags behind Apple",
+  "link": "https://www.engadget.com/2314873/surface-laptop-ultra-review/",
+  "resumo": "Microsoft&#39;s latest Surface is a beautiful flagship device for NVIDIA's RTX Spark.",
+  "categorias": [
+   "Laptops & PCs",
+   "Microsoft"
+  ],
+  "data": "Fri, 13 Nov 2026 13:00:00 +0000",
+  "fonte": "Engadget - Technology News & Expert Reviews",
+  "manter": true,
+  "motivo": "Review de computador relevante do mercado.",
+  "avaliado_em": "2026-11-13T15:32:31.423519+00:00"
+ },
+ "https://www.engadget.com/2315710/bloomberg-details-web-of-chinese-ai-companies-with-smuggled-nvidia-chips-linked-to-alice-huang/": {
+  "guid": "https://www.engadget.com/2315710/bloomberg-details-web-of-chinese-ai-companies-with-smuggled-nvidia-chips-linked-to-alice-huang/",
+  "titulo": "Bloomberg details web of Chinese AI companies with smuggled NVIDIA chips linked to Alice Huang",
+  "link": "https://www.engadget.com/2315710/bloomberg-details-web-of-chinese-ai-companies-with-smuggled-nvidia-chips-linked-to-alice-huang/",
+  "resumo": "Bloomberg found evidence of a network of Chinese companies smuggling NVIDIA chips with Alice Huang at the center.",
+  "categorias": [
+   "AI"
+  ],
+  "data": "Fri, 13 Nov 2026 12:58:10 +0000",
+  "fonte": "Engadget - Technology News & Expert Reviews",
+  "manter": true,
+  "motivo": "Notícia importante sobre chips de IA e geopolítica.",
+  "avaliado_em": "2026-11-13T15:32:31.423519+00:00"
+ },
+ "https://www.engadget.com/2315689/whoop-humans-is-a-social-network-designed-for-fitness-enthusiasts/": {
+  "guid": "https://www.engadget.com/2315689/whoop-humans-is-a-social-network-designed-for-fitness-enthusiasts/",
+  "titulo": "Whoop Humans is a social network designed for fitness enthusiasts",
+  "link": "https://www.engadget.com/2315689/whoop-humans-is-a-social-network-designed-for-fitness-enthusiasts/",
+  "resumo": "Whoop, a company that makes screenless fitness trackers, has launched its own social network.",
+  "categorias": [
+   "Social Media"
+  ],
+  "data": "Fri, 13 Nov 2026 10:39:44 +0000",
+  "fonte": "Engadget - Technology News & Expert Reviews",
+  "manter": true,
+  "motivo": "Lançamento de rede social por empresa de hardware.",
+  "avaliado_em": "2026-11-13T15:32:31.423519+00:00"
+ },
+ "https://www.engadget.com/2315638/byd-wheel-assembly-error-great-tang-electric-suv/": {
+  "guid": "https://www.engadget.com/2315638/byd-wheel-assembly-error-great-tang-electric-suv/",
+  "titulo": "BYD admits wheel assembly error on its flagship electric SUV",
+  "link": "https://www.engadget.com/2315638/byd-wheel-assembly-error-great-tang-electric-suv/",
+  "resumo": "The electric automaker has apologized and said it will fix the issue for affected vehicles.",
+  "categorias": [
+   "EVs and Transportation"
+  ],
+  "data": "Fri, 13 Nov 2026 08:12:48 +0000",
+  "fonte": "Engadget - Technology News & Expert Reviews",
+  "manter": true,
+  "motivo": "Notícia sobre recall e erro de fabricação em carro elétrico.",
+  "avaliado_em": "2026-11-13T15:32:31.423519+00:00"
  }
 }

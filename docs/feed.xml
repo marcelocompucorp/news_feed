@@ -4,9 +4,71 @@
     <title>Engadget filtrado</title>
     <link>https://github.com/marcelocompucorp/news_feed</link>
     <description>Matérias que passaram no filtro de perfil.md</description>
-    <lastBuildDate>Fri, 13 Nov 2026 07:58:58 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 15:32:32 +0000</lastBuildDate>
     <atom:link rel="self" href="https://marcelocompucorp.github.io/news_feed/feed.xml" type="application/rss+xml" />
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+    <item>
+      <title>The Motorola Signature 27 is a beast</title>
+      <link>https://www.engadget.com/2315452/motorola-signature-27-hands-on/</link>
+      <guid isPermaLink="false">https://www.engadget.com/2315452/motorola-signature-27-hands-on/</guid>
+      <pubDate>Fri, 13 Nov 2026 14:00:00 +0000</pubDate>
+      <description>Motorola&amp;#39;s latest phone has a monstrous tandem OLED display, a huge 7,000mah battery, fancy cameras and a massive $1,600 price tag.
+
+[Filtro: Review de celular topo de linha relevante.]</description>
+      <category>Smartphones</category>
+    </item>
+    <item>
+      <title>Why Apple's HomeView relies so heavily on your iPhone</title>
+      <link>https://www.engadget.com/2315338/why-apples-homeview-relies-so-heavily-on-your-iphone/</link>
+      <guid isPermaLink="false">https://www.engadget.com/2315338/why-apples-homeview-relies-so-heavily-on-your-iphone/</guid>
+      <pubDate>Fri, 13 Nov 2026 14:00:00 +0000</pubDate>
+      <description>To make the HomeView both personal and communal, there was only one place to go.
+
+[Filtro: Notícia sobre estratégia e ecossistema da Apple.]</description>
+      <category>AI</category>
+      <category>Apple</category>
+    </item>
+    <item>
+      <title>Surface Laptop Ultra review: The most powerful Surface yet, but it still lags behind Apple</title>
+      <link>https://www.engadget.com/2314873/surface-laptop-ultra-review/</link>
+      <guid isPermaLink="false">https://www.engadget.com/2314873/surface-laptop-ultra-review/</guid>
+      <pubDate>Fri, 13 Nov 2026 13:00:00 +0000</pubDate>
+      <description>Microsoft&amp;#39;s latest Surface is a beautiful flagship device for NVIDIA's RTX Spark.
+
+[Filtro: Review de computador relevante do mercado.]</description>
+      <category>Laptops &amp; PCs</category>
+      <category>Microsoft</category>
+    </item>
+    <item>
+      <title>Bloomberg details web of Chinese AI companies with smuggled NVIDIA chips linked to Alice Huang</title>
+      <link>https://www.engadget.com/2315710/bloomberg-details-web-of-chinese-ai-companies-with-smuggled-nvidia-chips-linked-to-alice-huang/</link>
+      <guid isPermaLink="false">https://www.engadget.com/2315710/bloomberg-details-web-of-chinese-ai-companies-with-smuggled-nvidia-chips-linked-to-alice-huang/</guid>
+      <pubDate>Fri, 13 Nov 2026 12:58:10 +0000</pubDate>
+      <description>Bloomberg found evidence of a network of Chinese companies smuggling NVIDIA chips with Alice Huang at the center.
+
+[Filtro: Notícia importante sobre chips de IA e geopolítica.]</description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>Whoop Humans is a social network designed for fitness enthusiasts</title>
+      <link>https://www.engadget.com/2315689/whoop-humans-is-a-social-network-designed-for-fitness-enthusiasts/</link>
+      <guid isPermaLink="false">https://www.engadget.com/2315689/whoop-humans-is-a-social-network-designed-for-fitness-enthusiasts/</guid>
+      <pubDate>Fri, 13 Nov 2026 10:39:44 +0000</pubDate>
+      <description>Whoop, a company that makes screenless fitness trackers, has launched its own social network.
+
+[Filtro: Lançamento de rede social por empresa de hardware.]</description>
+      <category>Social Media</category>
+    </item>
+    <item>
+      <title>BYD admits wheel assembly error on its flagship electric SUV</title>
+      <link>https://www.engadget.com/2315638/byd-wheel-assembly-error-great-tang-electric-suv/</link>
+      <guid isPermaLink="false">https://www.engadget.com/2315638/byd-wheel-assembly-error-great-tang-electric-suv/</guid>
+      <pubDate>Fri, 13 Nov 2026 08:12:48 +0000</pubDate>
+      <description>The electric automaker has apologized and said it will fix the issue for affected vehicles.
+
+[Filtro: Notícia sobre recall e erro de fabricação em carro elétrico.]</description>
+      <category>EVs and Transportation</category>
+    </item>
     <item>
       <title>Meta's Muse can now make calls on your behalf (if you have a paid subscription)</title>
       <link>https://www.engadget.com/2315525/metas-muse-can-now-make-calls-on-your-behalf-if-you-have-a-paid-subscription/</link>
