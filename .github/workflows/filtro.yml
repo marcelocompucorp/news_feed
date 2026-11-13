@@ -2,7 +2,9 @@ name: Filtrar feeds
 
 on:
   schedule:
-    - cron: "17 * * * *"   # de hora em hora, no minuto 17
+    # A cada 15 minutos. O GitHub atrasa e pula muitas execuções agendadas;
+    # tentando mais vezes, aumenta a chance de rodar ao menos uma vez por hora.
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:         # botão "Run workflow" na aba Actions
 
 permissions:

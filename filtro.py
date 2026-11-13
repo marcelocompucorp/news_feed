@@ -136,7 +136,11 @@ def gravar_feed(arquivo, titulo, descricao, itens):
     ET.SubElement(canal, "title").text = titulo
     ET.SubElement(canal, "link").text = "https://github.com/marcelocompucorp/news_feed"
     ET.SubElement(canal, "description").text = descricao
-    ET.SubElement(canal, "lastBuildDate").text = format_datetime(datetime.now(timezone.utc))
+    # Data da última avaliação, e não "agora": sem matéria nova o arquivo sai
+    # idêntico e o workflow não precisa fazer commit.
+    ultima = max((datetime.fromisoformat(it["avaliado_em"]) for it in itens),
+                 default=datetime(2026, 1, 1, tzinfo=timezone.utc))
+    ET.SubElement(canal, "lastBuildDate").text = format_datetime(ultima)
     ET.SubElement(canal, f"{{{ATOM}}}link", rel="self", href=URL_PUBLICA + arquivo.name,
                   type="application/rss+xml")
     ET.SubElement(canal, f"{{{ATOM}}}link", rel="hub", href=HUB)
