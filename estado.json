@@ -569,5 +569,65 @@
   "manter": true,
   "motivo": "Notícia sobre recall e erro de fabricação em carro elétrico.",
   "avaliado_em": "2026-11-13T15:32:31.423519+00:00"
+ },
+ "https://www.engadget.com/2316384/google-now-lets-people-connect-gemini-to-their-bank-accounts/": {
+  "guid": "https://www.engadget.com/2316384/google-now-lets-people-connect-gemini-to-their-bank-accounts/",
+  "titulo": "Google now lets people connect Gemini to their bank accounts",
+  "link": "https://www.engadget.com/2316384/google-now-lets-people-connect-gemini-to-their-bank-accounts/",
+  "resumo": "This is for spending analysis and not for making purchases.",
+  "categorias": [
+   "AI",
+   "Google"
+  ],
+  "data": "Fri, 13 Nov 2026 19:15:32 +0000",
+  "fonte": "Engadget - Technology News & Expert Reviews",
+  "manter": true,
+  "motivo": "Nova funcionalidade de inteligência artificial da Google.",
+  "avaliado_em": "2026-11-13T21:40:39.173400+00:00"
+ },
+ "https://www.engadget.com/2316342/meta-quest-3-disney-plus-3d-movies-hands-on/": {
+  "guid": "https://www.engadget.com/2316342/meta-quest-3-disney-plus-3d-movies-hands-on/",
+  "titulo": "Disney's 3D movies shine on Meta's Quest 3, it's just a shame it took so long",
+  "link": "https://www.engadget.com/2316342/meta-quest-3-disney-plus-3d-movies-hands-on/",
+  "resumo": "Finally, you can watch Avatar in 3D HFR at home.",
+  "categorias": [
+   "Meta",
+   "TV & Movies",
+   "Streaming"
+  ],
+  "data": "Fri, 13 Nov 2026 19:00:00 +0000",
+  "fonte": "Engadget - Technology News & Expert Reviews",
+  "manter": false,
+  "motivo": "Conteúdo sobre entretenimento e filmes.",
+  "avaliado_em": "2026-11-13T21:40:39.173400+00:00"
+ },
+ "https://www.engadget.com/2316137/you-can-now-tempt-fate-and-give-your-banking-information-to-chatgpt/": {
+  "guid": "https://www.engadget.com/2316137/you-can-now-tempt-fate-and-give-your-banking-information-to-chatgpt/",
+  "titulo": "You can now tempt fate and give your banking information to ChatGPT",
+  "link": "https://www.engadget.com/2316137/you-can-now-tempt-fate-and-give-your-banking-information-to-chatgpt/",
+  "resumo": "The new Wallet feature will allow its AI agents to make purchases on your behalf.",
+  "categorias": [
+   "AI"
+  ],
+  "data": "Fri, 13 Nov 2026 17:17:51 +0000",
+  "fonte": "Engadget - Technology News & Expert Reviews",
+  "manter": true,
+  "motivo": "Nova funcionalidade de IA e agentes da OpenAI.",
+  "avaliado_em": "2026-11-13T21:40:39.173400+00:00"
+ },
+ "https://www.engadget.com/2316029/microsoft-services-are-returning-after-an-outage-took-down-outlook-teams-and-more/": {
+  "guid": "https://www.engadget.com/2316029/microsoft-services-are-returning-after-an-outage-took-down-outlook-teams-and-more/",
+  "titulo": "Microsoft services are returning after an outage took down Outlook, Teams and more",
+  "link": "https://www.engadget.com/2316029/microsoft-services-are-returning-after-an-outage-took-down-outlook-teams-and-more/",
+  "resumo": "The House of Representatives, health care providers, schools and many other organizations were affected.",
+  "categorias": [
+   "News",
+   "Microsoft"
+  ],
+  "data": "Fri, 13 Nov 2026 16:35:36 +0000",
+  "fonte": "Engadget - Technology News & Expert Reviews",
+  "manter": true,
+  "motivo": "Notícia importante sobre falha em serviços da Microsoft.",
+  "avaliado_em": "2026-11-13T21:40:39.173400+00:00"
  }
 }

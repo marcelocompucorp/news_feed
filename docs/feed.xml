@@ -4,9 +4,41 @@
     <title>Engadget filtrado</title>
     <link>https://github.com/marcelocompucorp/news_feed</link>
     <description>Matérias que passaram no filtro de perfil.md</description>
-    <lastBuildDate>Fri, 13 Nov 2026 15:32:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 21:40:39 +0000</lastBuildDate>
     <atom:link rel="self" href="https://marcelocompucorp.github.io/news_feed/feed.xml" type="application/rss+xml" />
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+    <item>
+      <title>Google now lets people connect Gemini to their bank accounts</title>
+      <link>https://www.engadget.com/2316384/google-now-lets-people-connect-gemini-to-their-bank-accounts/</link>
+      <guid isPermaLink="false">https://www.engadget.com/2316384/google-now-lets-people-connect-gemini-to-their-bank-accounts/</guid>
+      <pubDate>Fri, 13 Nov 2026 19:15:32 +0000</pubDate>
+      <description>This is for spending analysis and not for making purchases.
+
+[Filtro: Nova funcionalidade de inteligência artificial da Google.]</description>
+      <category>AI</category>
+      <category>Google</category>
+    </item>
+    <item>
+      <title>You can now tempt fate and give your banking information to ChatGPT</title>
+      <link>https://www.engadget.com/2316137/you-can-now-tempt-fate-and-give-your-banking-information-to-chatgpt/</link>
+      <guid isPermaLink="false">https://www.engadget.com/2316137/you-can-now-tempt-fate-and-give-your-banking-information-to-chatgpt/</guid>
+      <pubDate>Fri, 13 Nov 2026 17:17:51 +0000</pubDate>
+      <description>The new Wallet feature will allow its AI agents to make purchases on your behalf.
+
+[Filtro: Nova funcionalidade de IA e agentes da OpenAI.]</description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>Microsoft services are returning after an outage took down Outlook, Teams and more</title>
+      <link>https://www.engadget.com/2316029/microsoft-services-are-returning-after-an-outage-took-down-outlook-teams-and-more/</link>
+      <guid isPermaLink="false">https://www.engadget.com/2316029/microsoft-services-are-returning-after-an-outage-took-down-outlook-teams-and-more/</guid>
+      <pubDate>Fri, 13 Nov 2026 16:35:36 +0000</pubDate>
+      <description>The House of Representatives, health care providers, schools and many other organizations were affected.
+
+[Filtro: Notícia importante sobre falha em serviços da Microsoft.]</description>
+      <category>News</category>
+      <category>Microsoft</category>
+    </item>
     <item>
       <title>The Motorola Signature 27 is a beast</title>
       <link>https://www.engadget.com/2315452/motorola-signature-27-hands-on/</link>
