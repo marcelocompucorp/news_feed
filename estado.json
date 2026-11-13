@@ -468,5 +468,20 @@
   "manter": true,
   "motivo": "Mudança em serviços digitais envolvendo grandes empresas.",
   "avaliado_em": "2026-11-12T20:21:08.972093+00:00"
+ },
+ "https://www.engadget.com/2315525/metas-muse-can-now-make-calls-on-your-behalf-if-you-have-a-paid-subscription/": {
+  "guid": "https://www.engadget.com/2315525/metas-muse-can-now-make-calls-on-your-behalf-if-you-have-a-paid-subscription/",
+  "titulo": "Meta's Muse can now make calls on your behalf (if you have a paid subscription)",
+  "link": "https://www.engadget.com/2315525/metas-muse-can-now-make-calls-on-your-behalf-if-you-have-a-paid-subscription/",
+  "resumo": "The AI agent can schedule appointments, make reservations and wait on hold for you.",
+  "categorias": [
+   "AI",
+   "Meta"
+  ],
+  "data": "Thu, 12 Nov 2026 23:32:00 +0000",
+  "fonte": "Engadget - Technology News & Expert Reviews",
+  "manter": true,
+  "motivo": "Nova funcionalidade de inteligência artificial da Meta.",
+  "avaliado_em": "2026-11-13T00:25:59.628400+00:00"
  }
 }
