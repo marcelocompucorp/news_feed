@@ -29,9 +29,34 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
       - name: Publicar
+        id: publicar
         run: |
           git config user.name "news_feed bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add estado.json docs
-          git diff --cached --quiet || git commit -m "Atualiza feed filtrado"
+          if ! git diff --cached --quiet; then
+            git commit -m "Atualiza feed filtrado"
+            echo "mudou=1" >> "$GITHUB_OUTPUT"
+          fi
           git push
+
+      # Avisa o hub WebSub, que repassa ao Feedly. Fica aqui, e não num
+      # workflow disparado pelo page_build, porque eventos gerados por este
+      # job (o push com GITHUB_TOKEN) não disparam outros workflows.
+      - name: Avisar o hub WebSub
+        if: steps.publicar.outputs.mudou == '1'
+        run: |
+          base=https://marcelocompucorp.github.io/news_feed
+          esperado=$(grep -o '<lastBuildDate>[^<]*' docs/feed.xml)
+          for i in $(seq 30); do   # espera o Pages publicar a versão nova (até 5 min)
+            publicado=$(curl -s "$base/feed.xml?nocache=$RANDOM" | grep -o '<lastBuildDate>[^<]*')
+            [ "$publicado" = "$esperado" ] && break
+            sleep 10
+          done
+          echo "Pages: ${publicado:-nada} (esperado: $esperado)"
+          for feed in feed.xml "feed.xml?v=2" barrados.xml; do
+            curl -sS -o /dev/null -w "$feed: HTTP %{http_code}\n" \
+              -d hub.mode=publish \
+              --data-urlencode hub.url=$base/$feed \
+              https://pubsubhubbub.appspot.com/
+          done
