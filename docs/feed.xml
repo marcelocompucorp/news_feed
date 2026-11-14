@@ -4,9 +4,19 @@
     <title>Engadget filtrado</title>
     <link>https://github.com/marcelocompucorp/news_feed</link>
     <description>Matérias que passaram no filtro de perfil.md</description>
-    <lastBuildDate>Fri, 13 Nov 2026 21:40:39 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 08:51:22 +0000</lastBuildDate>
     <atom:link rel="self" href="https://marcelocompucorp.github.io/news_feed/feed.xml" type="application/rss+xml" />
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+    <item>
+      <title>FAA allows flights to resume after hours-long ground stop across the US</title>
+      <link>https://www.engadget.com/2316792/faa-flights-resume-ground-stop-old-equipment/</link>
+      <guid isPermaLink="false">https://www.engadget.com/2316792/faa-flights-resume-ground-stop-old-equipment/</guid>
+      <pubDate>Sat, 14 Nov 2026 06:35:40 +0000</pubDate>
+      <description>The FAA grounded flights for hours on November 13, and the transportation secretary blamed it on old and malfunctioning air traffic control system.
+
+[Filtro: Falha em sistema de controle aéreo afeta transporte.]</description>
+      <category>EVs and Transportation</category>
+    </item>
     <item>
       <title>Google now lets people connect Gemini to their bank accounts</title>
       <link>https://www.engadget.com/2316384/google-now-lets-people-connect-gemini-to-their-bank-accounts/</link>

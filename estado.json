@@ -643,5 +643,19 @@
   "manter": false,
   "motivo": "Trata-se de notícia sobre jogos, tema excluído do perfil.",
   "avaliado_em": "2026-11-14T01:52:27.762910+00:00"
+ },
+ "https://www.engadget.com/2316792/faa-flights-resume-ground-stop-old-equipment/": {
+  "guid": "https://www.engadget.com/2316792/faa-flights-resume-ground-stop-old-equipment/",
+  "titulo": "FAA allows flights to resume after hours-long ground stop across the US",
+  "link": "https://www.engadget.com/2316792/faa-flights-resume-ground-stop-old-equipment/",
+  "resumo": "The FAA grounded flights for hours on November 13, and the transportation secretary blamed it on old and malfunctioning air traffic control system.",
+  "categorias": [
+   "EVs and Transportation"
+  ],
+  "data": "Sat, 14 Nov 2026 06:35:40 +0000",
+  "fonte": "Engadget - Technology News & Expert Reviews",
+  "manter": true,
+  "motivo": "Falha em sistema de controle aéreo afeta transporte.",
+  "avaliado_em": "2026-11-14T08:51:22.236508+00:00"
  }
 }
