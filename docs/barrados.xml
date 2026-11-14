@@ -4,9 +4,19 @@
     <title>Engadget filtrado: barrados</title>
     <link>https://github.com/marcelocompucorp/news_feed</link>
     <description>Matérias descartadas pelo filtro, com o motivo</description>
-    <lastBuildDate>Fri, 13 Nov 2026 21:40:39 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 01:52:27 +0000</lastBuildDate>
     <atom:link rel="self" href="https://marcelocompucorp.github.io/news_feed/barrados.xml" type="application/rss+xml" />
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+    <item>
+      <title>Some international physical copies of GTA VI can allegedly be redeemed without opening the box</title>
+      <link>https://www.engadget.com/2316687/some-physical-copies-of-gta-vi-can-allegedly-be-redeemed-without-opening-the-box/</link>
+      <guid isPermaLink="false">https://www.engadget.com/2316687/some-physical-copies-of-gta-vi-can-allegedly-be-redeemed-without-opening-the-box/</guid>
+      <pubDate>Fri, 13 Nov 2026 22:50:13 +0000</pubDate>
+      <description>The box was already for decoration, and now maybe more so.
+
+[Filtro: Trata-se de notícia sobre jogos, tema excluído do perfil.]</description>
+      <category>Gaming</category>
+    </item>
     <item>
       <title>Disney's 3D movies shine on Meta's Quest 3, it's just a shame it took so long</title>
       <link>https://www.engadget.com/2316342/meta-quest-3-disney-plus-3d-movies-hands-on/</link>

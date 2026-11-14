@@ -629,5 +629,19 @@
   "manter": true,
   "motivo": "Notícia importante sobre falha em serviços da Microsoft.",
   "avaliado_em": "2026-11-13T21:40:39.173400+00:00"
+ },
+ "https://www.engadget.com/2316687/some-physical-copies-of-gta-vi-can-allegedly-be-redeemed-without-opening-the-box/": {
+  "guid": "https://www.engadget.com/2316687/some-physical-copies-of-gta-vi-can-allegedly-be-redeemed-without-opening-the-box/",
+  "titulo": "Some international physical copies of GTA VI can allegedly be redeemed without opening the box",
+  "link": "https://www.engadget.com/2316687/some-physical-copies-of-gta-vi-can-allegedly-be-redeemed-without-opening-the-box/",
+  "resumo": "The box was already for decoration, and now maybe more so.",
+  "categorias": [
+   "Gaming"
+  ],
+  "data": "Fri, 13 Nov 2026 22:50:13 +0000",
+  "fonte": "Engadget - Technology News & Expert Reviews",
+  "manter": false,
+  "motivo": "Trata-se de notícia sobre jogos, tema excluído do perfil.",
+  "avaliado_em": "2026-11-14T01:52:27.762910+00:00"
  }
 }
